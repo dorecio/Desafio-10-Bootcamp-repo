@@ -1,0 +1,26 @@
+{
+  "name": "desafio-10-bootcamp-repo",
+  "version": "1.0.0",
+  "description": "Generador Web page equipo de trabajo ingeniería de software ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorecio/Desafio-10-Bootcamp-repo.git"
+  },
+  "author": "Doris Recio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorecio/Desafio-10-Bootcamp-repo/issues"
+  },
+  "homepage": "https://github.com/dorecio/Desafio-10-Bootcamp-repo#readme",
+  "dependencies": {
+    "inquirer": "^6.5.2",
+    "jest": "^29.3.1"
+  }
+}
