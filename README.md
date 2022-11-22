@@ -1,4 +1,4 @@
-# Desafio-10-Bootcamp-repo
+# Generador-de-Website-Software-engineering-team
 Generador de página web con despliegue de información relativa a empleados de un equipo de ingeniería de software
 
 ## Descripción
@@ -48,8 +48,21 @@ Video demostrativo
 ### Ejemplos de uso
 
 Ejecuta en consola o terminal dentro de la carpeta de la aplicación : node index..js
+Se capturan datos del lider (gerente) del equipo y se despliega menu 
 
-===> PENDIENTE IMAGEN
+![img](/assets/images/img01.png)
+
+Se capturan datos de miembros del equipo
+
+![img](/assets/images/img02.png)
+
+Al terminar captura se genera archivo "html" en carpeta "/dist"
+
+![img](/assets/images/img03.png)
+
+El archivo desplegado en navegador se muestra de la siguiente manera
+
+![img](/assets/images/img04.png)
 
 ## Contribuciones
 
@@ -67,7 +80,14 @@ Ejecuta en consola o terminal dentro de la carpeta de la aplicación : node inde
 
 ## Pruebas
 
-===>  PENDIENTE IMAGENES DE PRUEBAS
+Se capturan datos de miembros del equipo en terminal através del comando "node index.js"
+
+![img](/assets/images/img02.png)
+
+El archivo desplegado en navegador se muestra de la siguiente manera
+
+![img](/assets/images/img04.png)
+
     
 ## Preguntas
 
