@@ -43,7 +43,7 @@ el equipo. Al finalizar la captura de datos el archivo "empleados.html" de la ap
 y depositado en la carpeta /dist. 
 
 Video demostrativo
- ===> PENDIENTE
+ https://watch.screencastify.com/v/GLfT3BfVr6Rs1iuhLy5u
 
 ### Ejemplos de uso
 
