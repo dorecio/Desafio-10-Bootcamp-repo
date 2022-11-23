@@ -14,9 +14,7 @@ function numbers(nums) {
     `
 } */
 function codigoManager(empleado) {
-    return `
-    
-    <div class="p-2">Office number: ${empleado.officeNumber}</div> `
+    return `<div class="p-2">Office number: ${empleado.officeNumber}</div> `
 }
 
 function codigoEngineer(empleado) {
@@ -43,7 +41,7 @@ function codigo(empleados) {
                     <h3>${empleados.role}</h3>
                 </div>
                 <div class="col-md-12 bg-light text-secondary">
-                    <div>ID: ${empleados.id}</div>
+                    <div class="p-2">ID: ${empleados.id}</div>
                     <div class="p-2">Email: <a href="mailto:${empleados.email}">${empleados.email}</a></div>
                     ${codigoMan}
                 </div>
@@ -57,11 +55,9 @@ function generateMarkdown(employeeArray) {
     let intern = employeeArray.filter((interno) => interno.role == 'Intern');
     html01.push(employeeArray[0]);
     const html02 = [...html01, ...engineer, ...intern];
-    console.log('HTML =======>', html02);
-    
-        html.push(html02.map((empleados) => codigo(empleados)).join(''));   //AQUI MAPEO PARA GENERAR EL CODIGO PARA CADA ELEMENTO DEL AREGLO
-      
-     console.log('HTML ====>', html);
+  //  console.log('HTML =======>', html02);
+    html.push(html02.map((empleados) => codigo(empleados)).join(''));   //AQUI MAPEO PARA GENERAR EL CODIGO PARA CADA ELEMENTO DEL AREGLO
+  // console.log('HTML ====>', html);
 
 return `
 <!DOCTYPE html>
